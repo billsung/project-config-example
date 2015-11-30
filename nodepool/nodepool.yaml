@@ -16,7 +16,8 @@ zmq-publishers:
   - tcp://localhost:8888
 
 gearman-servers:
-  - host: 127.0.0.1:4730
+  - host: 127.0.0.1
+    port: 4730
 
 labels:
   - name: d-p-c
